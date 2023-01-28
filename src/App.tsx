@@ -36,12 +36,6 @@ const App: React.FC = () => {
   const onDragEnd = (result: DropResult) => {
     const { source, destination } = result;
 
-    console.log(
-      result,
-      source.index,
-      todos[source.index]
-    );
-
     if (!destination) return;
     if (
       destination.droppableId ===
