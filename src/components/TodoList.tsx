@@ -2,7 +2,7 @@ import React from 'react';
 import { Droppable } from 'react-beautiful-dnd';
 import { Todo } from './model';
 import SingleTodo from './SingleTodo';
-import './styles.css';
+import './styles.scss';
 
 interface Props {
   todos: Todo[];

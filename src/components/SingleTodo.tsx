@@ -4,7 +4,7 @@ import React, {
   useState,
 } from 'react';
 import { Todo } from './model';
-import './styles.css';
+import './styles.scss';
 import {
   AiFillEdit,
   AiFillDelete,

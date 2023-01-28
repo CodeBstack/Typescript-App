@@ -3,7 +3,7 @@ import {
   DragDropContext,
   DropResult,
 } from 'react-beautiful-dnd';
-import './App.css';
+import './App.scss';
 import InputField from './components/InputField';
 import { Todo } from './components/model';
 import TodoList from './components/TodoList';
